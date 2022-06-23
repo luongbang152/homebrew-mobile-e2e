@@ -12,9 +12,9 @@ class Redis < Formula
   end
 
   bottle do
-    root_url "https://github.com/luongbang152/homebrew-brew/releases/download/redis-6.2.6"
-    sha256 cellar: :any,                 big_sur:      "9219cb2ad32149c70421793a837a08c872919fbb272130680ef04bc9affe60dc"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "5dada42f07c7ed32c9bd84b51871557401489655e68126854cebb01c69fb2650"
+    root_url "https://github.com/luongbang152/homebrew-mobile-e2e/releases/download/redis-6.2.6"
+    sha256 cellar: :any,                 big_sur:      "da608a0c021143db25d699dc998141e15e55148c1b3abedb4229a79c3ef5663e"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "410b2b71855649f65c932a9e84b45686b7590beba71a5842ec353e6b01aa06fb"
   end
 
   depends_on "openssl@1.1"
