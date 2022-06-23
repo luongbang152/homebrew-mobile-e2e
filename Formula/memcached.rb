@@ -12,9 +12,9 @@ class Memcached < Formula
   end
 
   bottle do
-    root_url "https://github.com/luongbang152/homebrew-brew/releases/download/memcached-1.6.14"
-    sha256 cellar: :any,                 big_sur:      "2c4fea0f397a4d0cc26d6cb6291ebf4e367df25ed3982bd3e9306c82c82c6657"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "92bc45db310ed2f26b1e003abc43e0b73e4f9aeef802031aba984de59a20575e"
+    root_url "https://github.com/luongbang152/homebrew-mobile-e2e/releases/download/memcached-1.6.14"
+    sha256 cellar: :any,                 big_sur:      "482a31e40a0a73fde8cd43283131108405148c65070162720999111f7606750a"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "3fecfbc9874604f4ff72dc78283fc5d852ef1e46ab540859675df863436c61b0"
   end
 
   depends_on "libevent"
