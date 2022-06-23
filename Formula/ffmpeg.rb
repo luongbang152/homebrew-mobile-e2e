@@ -14,9 +14,9 @@ class Ffmpeg < Formula
   end
 
   bottle do
-    root_url "https://github.com/luongbang152/homebrew-brew/releases/download/ffmpeg-5.0"
-    sha256 big_sur:      "cb362d2534fb2ebcefa5b622303053338e08a583f9530e35ae9026cfddc68234"
-    sha256 x86_64_linux: "6d222a755231c923f5029df0ee6ddcab1c57b4c933a971e352df4e472cfa743c"
+    root_url "https://github.com/luongbang152/homebrew-mobile-e2e/releases/download/ffmpeg-5.0"
+    sha256 big_sur:      "b2c56f7d1ab58a5ff9205eb5216c1e2856bd474720ce9c46df4e8d702a507d99"
+    sha256 x86_64_linux: "11fbde9e57dc2e62f11e8f8a64722f9e86e166addbccd1f384eec0f348d3da93"
   end
 
   depends_on "nasm" => :build
