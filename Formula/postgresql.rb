@@ -12,9 +12,9 @@ class Postgresql < Formula
   end
 
   bottle do
-    root_url "https://github.com/luongbang152/homebrew-brew/releases/download/postgresql-14.2"
-    sha256 big_sur:      "63b47fd17c953864f18e574fda70dfaa9b896cc3609b9bebcc4969cd586662a3"
-    sha256 x86_64_linux: "56ecc519119bcedb7fc1cd93125a8ff61eae133e58cbcb7e2b3faa3501a3963e"
+    root_url "https://github.com/luongbang152/homebrew-mobile-e2e/releases/download/postgresql-14.2"
+    sha256 big_sur:      "c75022d38b4ee163e6997300f15f252d8fb24285764e81f3c073c74857f3b1ae"
+    sha256 x86_64_linux: "c3c933bb097f463a2047d241627272f051ed4bd317c969dac203e12353e28add"
   end
 
   depends_on "pkg-config" => :build
