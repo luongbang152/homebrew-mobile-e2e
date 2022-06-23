@@ -7,9 +7,9 @@ class Snappy < Formula
   head "https://github.com/google/snappy.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/luongbang152/homebrew-brew/releases/download/snappy-1.1.9"
-    sha256 cellar: :any,                 big_sur:      "20bf5d85659e8c23c8c4d0c960b6127e347f356be28188cdd9f4da1cf9c515e1"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "d1d17e2935d2d638bbff007fd49423f84e3c9c84ab7a88249966d2fb9e928ed1"
+    root_url "https://github.com/luongbang152/homebrew-mobile-e2e/releases/download/snappy-1.1.9"
+    sha256 cellar: :any,                 big_sur:      "dcbc0954da3bd1ea4052dccc5795495e03bf3a122f9baebcf413f7794d52c298"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "e8d4738c0a3630f697e1ddcc08c2224af00047e3bc7c62e3acf9842eb708ea1a"
   end
 
   depends_on "cmake" => :build
